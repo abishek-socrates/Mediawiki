@@ -1,4 +1,4 @@
-**Project Overview : **(https://github.com/abishek-socrates/Mediawiki/assets/170268442/d6726557-069e-4ac4-93f4-0c23e99a450d)
+**Project Overview**: (https://github.com/abishek-socrates/Mediawiki/assets/170268442/d6726557-069e-4ac4-93f4-0c23e99a450d)
 
 **1. Dockerfiles**
 * Application Dockerfile - For installing and configuring Mediawiki on a Centos7 container.
