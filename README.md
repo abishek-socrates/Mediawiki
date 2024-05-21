@@ -1,3 +1,5 @@
+**Project Overview : **(https://github.com/abishek-socrates/Mediawiki/assets/170268442/d6726557-069e-4ac4-93f4-0c23e99a450d)
+
 **1. Dockerfiles**
 * Application Dockerfile - For installing and configuring Mediawiki on a Centos7 container.
 * Mariadb Dockerfile`  - For installing and configuring Mariadb for handling Mediawiki database.
@@ -24,4 +26,3 @@ Configure the Mediawiki by providing the values as below:
 
 **6. After final submission you it will generate a LocalSettings.php file which needs to be copied on the mediawiki container at location: `/opt/rh/httpd24/root/var/www/html/mediawiki`**.
 
-**Overall flow Chart :** (https://github.com/abishek-socrates/Mediawiki/assets/170268442/d6726557-069e-4ac4-93f4-0c23e99a450d)
