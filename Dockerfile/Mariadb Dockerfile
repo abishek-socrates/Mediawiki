@@ -1,0 +1,8 @@
+FROM mariadb:latest
+
+ENV MYSQL_ROOT_PASSWORD=Passw0rd
+ENV MYSQL_DATABASE=wikidatabase
+
+ADD ./config.sql /docker-entrypoint-initdb.d/config.sql
+
+EXPOSE 3306
