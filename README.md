@@ -11,7 +11,6 @@ The application and database images are pushed to docker hub.
 The kubernetes objects are defined in following files: `mediawiki-deployment.yaml` `mediawiki-service.yaml` `db-deployment.yaml` `db-service.yaml` `env-configmap.yaml` `wikinetwork-networkpolicy.yaml` `secret.yaml`
 
 `secret.yaml` file is created for storing base64 converted password string to be used for variable MYSQL_ROOT_PASSWORD.
-Replace the encrypted string by generating a new string using command: `echo -n "<new_password>" | base64`
 
 **4. Deploying the Stack**
 
