@@ -16,13 +16,13 @@ The kubernetes objects are defined in following files: `mediawiki-deployment.yam
 
 helm install mediawiki ./{The helm chart name}
 
-Configure the Mediawiki by providing the values as below:
+**5. Configure the Mediawiki by providing the values as below:**
 * Database Host : `db:33060`
 * Database Name : `wikidatabase`
 * Database Username : `root`
 * Database Password : `Passw0rd`
 
-**5. After the DB connections are setup, provide details for setting up your new Wiki.**
+**6. After the DB connections are setup, provide details for setting up your new Wiki.**
 
-**6. After final submission you it will generate a LocalSettings.php file which needs to be copied on the mediawiki container at location: `/opt/rh/httpd24/root/var/www/html/mediawiki`**.
+**7. After final submission you it will generate a LocalSettings.php file which needs to be copied on the mediawiki container at location: `/opt/rh/httpd24/root/var/www/html/mediawiki`**.
 
