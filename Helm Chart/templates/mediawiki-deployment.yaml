@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    service: mediawiki
+  name: mediawiki
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      service: mediawiki
+  template:
+    metadata:
+      labels:
+        network/wikinetwork: "true"
+        service: mediawiki
+    spec:
+      containers:
+      - image: asocrates/mediawiki
+        imagePullPolicy: Always
+        name: mediawiki
+        ports:
+        - containerPort: 80
+        resources: {}
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes: null
