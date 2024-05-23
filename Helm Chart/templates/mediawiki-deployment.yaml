@@ -24,5 +24,3 @@ spec:
         - containerPort: 80
         resources: {}
       restartPolicy: Always
-      serviceAccountName: ""
-      volumes: null
